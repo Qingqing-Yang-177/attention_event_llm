@@ -2,7 +2,8 @@
 LLM, event perception, attention redistribution
 
 To execute the whole project on your hpc or server, pls follow the instructions below:
-'''
+
+```
 cd ./attention_event 
 # create virtual environment on hpc server, in the terminal:
 python -m venv llmenv
