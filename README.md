@@ -1,6 +1,8 @@
-# attention_event
+# key words
 LLM, event perception, attention redistribution
 
+To execute the whole project on your hpc or server, pls follow the instructions below:
+'''
 cd ./attention_event 
 # create virtual environment on hpc server, in the terminal:
 python -m venv llmenv
@@ -26,3 +28,4 @@ sbatch attention_event_noseg.sh story1.txt 0
 
 # segmentation for each story, testing punctuation
 sbatch attention_event_seg.sh story2.txt 1 
+```
