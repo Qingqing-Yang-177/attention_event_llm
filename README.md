@@ -1,5 +1,4 @@
-# key words
-LLM, event perception, attention redistribution
+This is a project about LLM, event perception, attention redistribution
 
 To execute the whole project on your hpc or server, pls follow the instructions below:
 
