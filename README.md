@@ -3,20 +3,20 @@ This is the repo of code and data for [paper](https://openreview.net/pdf?id=l0K0
 To execute the whole project on your hpc or server, pls follow the instructions below:
 
 ```
-cd ./attention_event
+cd ./attention_event_llm
 
 # create virtual environment on hpc server, in the terminal:
 python -m venv llmenv
 
 # activate the environment
-source ./attention_event/llmenv/bin/activate
+source ./attention_event_llm/llmenv/bin/activate
 
 # download packages
-cd ./attention_event/llmenv/lib/python3.11/site-packages
+cd ./attention_event_llm/llmenv/lib/python3.11/site-packages
 pip install torch safetensors transformers datasets accelerate peft bitsandbytes matplotlib seaborn spacy striptf scipy ipykernel numpy pandas os sys
 
 # download scipy model
-cd ./attention_event/llmenv/bin/
+cd ./attention_event_llm/llmenv/bin/
 python -m spacy download en_core_web_sm
   
 # add virtual environment to Jupyter notebooks
