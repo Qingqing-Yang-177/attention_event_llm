@@ -1,4 +1,4 @@
-This is a project about LLM, event perception, attention redistribution
+This is the repo of code and data for [paper](https://openreview.net/pdf?id=l0K0ADWKTq) "Attention redistribution during event segmentation in Large Language Model", NeurIPS 2024 Workshop on Behavioral ML.
 
 To execute the whole project on your hpc or server, pls follow the instructions below:
 
